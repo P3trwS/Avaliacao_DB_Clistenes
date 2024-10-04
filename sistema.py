@@ -1,6 +1,5 @@
 from datetime import datetime
-import connbd as conn
-import pandas as pd
+import conndb as conn
 
 def inserir_livro(titulo: str, autor: str, ano: int):
     livro = {"titulo": titulo, "autor": autor, "ano": ano, "disponivel": True}
